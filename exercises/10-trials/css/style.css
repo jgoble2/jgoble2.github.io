@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+}
+
+#trial1 {
+    color: green;
+}
+
+#pink1,
+#pink2 {
+    color: #F711F7;
+}
+
+#red {
+    color: red;
+}
+
+#gold {
+    color: goldenrod;
+}
+
+#blue {
+    color: blue;
+}
+
+#trial4 {
+    background-color: skyblue;
+}
+
+#yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+#bold1,
+#bold2 {
+    font-weight: bold;
+}
+
+#italic1,
+#italic2 {
+    font-style: italic;
+}
+
+#bold3 {
+    font-weight: bold;
+}
+
+#link1,
+#link2 {
+    text-decoration: underline;
+}
+
+#fakeheading {
+    font-size: 36px;
+}
+
+#trial9 {
+    font-size: 24px;
+}
+
+#eyebrow {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#fakeheading2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+#fakesubheading {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+#secret-trial {
+    font-weight: 800;
+    font-style: italic;
+    color: #1482ff;
+    text-align: center;
+    background-color: #7bff00;
+    line-height: 200%;
+}
+#secret-trial-h2 {
+    background-color: indigo;
+    color: whitesmoke;
+    text-align: center;
+    letter-spacing: 13%;
+}
