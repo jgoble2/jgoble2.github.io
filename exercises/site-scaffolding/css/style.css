@@ -1,0 +1,91 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #FFF9F0;
+    color: #554536;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F6E6D2;
+    padding: 22px 6%;
+    box-shadow: 0 3px 10px #50371e1f;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #A85D3B;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    color: #D69A45;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #66513F;
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #C47748;
+}
+
+.subscribe-btn {
+    background-color: #D68C4D;
+    color: white;
+    text-decoration: none;
+    padding: 16px 25px;
+    border-radius: 8px;
+    font-family: "Fascinate Inline", system-ui;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background-color 0.5s;
+}
+
+.subscribe-btn:hover {
+    background-color: #A85D3B;
+}
+
+.content {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.content h1 {
+    color: #A85D3B;
+    font-size: 42px;
+    font-family: "Fascinate Inline", system-ui;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
