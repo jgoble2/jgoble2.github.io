@@ -13,16 +13,6 @@ body {
     margin-right: auto;
 }
 
-.bg {
-    background-color: #fffbe0;
-    padding: 25px 0px;
-    
-}
-
-h1 {
-    margin-top: 0px;
-}
-
 header {
     background-color: #ffbf48;
     padding: 25px 0px;
@@ -41,12 +31,7 @@ nav a {
     display: inline-block;
     background-color: #0c43ce;
     color: #fff;
-    transition: 
-        background-color 0.5s,
-        border-color 0.5s,
-        color 0.5s;
 }
-
 a.btn.alt {
     background-color: transparent;
     color: #0c43ce;
@@ -57,7 +42,6 @@ a.btn.alt {
     border-color: #ffbf48;
     color: #0c43ce;
 }
-
-a.bnt.alt:hover {
+a.btn.alt:hover {
     color: #ffbf48;
 }
